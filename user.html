@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Dashboard</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f2f2f2;
+        }
+
+        header {
+            background: #4a90e2;
+            color: white;
+            padding: 15px 20px;
+        }
+
+        nav {
+            background: #fff;
+            padding: 10px 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            display: flex;
+            gap: 15px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            padding: 8px 12px;
+            border-radius: 4px;
+        }
+
+        nav a:hover {
+            background: #4a90e2;
+            color: white;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 6px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #fff;
+            margin-top: 40px;
+            box-shadow: 0 -2px 5px rgba(0,0,0,0.05);
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>User Dashboard</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Profile</a>
+        <a href="#">Messages</a>
+        <a href="#">Settings</a>
+        <a href="#">Logout</a>
+    </nav>
+
+    <div class="container">
+        <div class="card">
+            <h2>Welcome Back!</h2>
+            <p>Here is your latest activity and account information.</p>
+        </div>
+
+        <div class="card">
+            <h3>Your Recent Activity</h3>
+            <ul>
+                <li>You updated your profile.</li>
+                <li>You checked your messages.</li>
+                <li>You changed notification settings.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>Account Info</h3>
+            <p><strong>Username:</strong> user123</p>
+            <p><strong>Email:</strong> user@example.com</p>
+        </div>
+    </div>
+
+    <footer>
+        © 2025 User Portal
+    </footer>
+
+</body>
+</html>
